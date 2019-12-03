@@ -4,13 +4,8 @@
     <meta charset="UTF-8">
     <title><?= isset($title) ? 'Gestion immobilier - '.$title : 'Gestion immobilier - Accueil' ?></title>
     <!-- lien boostrap css-->
-    <link rel="stylesheet" href="<?= ROUTE.'/css/bootstrap/bootstrap.min.css'; ?>">
-    <link rel="stylesheet" href="<?= ROUTE.'/css/bootstrap/bootstrap-grid.min.css'; ?>">
-    <!--lien boostrap js-->
-    <link rel="stylesheet" href="<?= ROUTE.'/css/bootstrap/js/bootstrap.min.js'; ?>">
-    <!-- lien css personnaliser -->
-    <link rel="stylesheet" href="<?= ROUTE.'/css/styles.css'; ?>">
-    <!--lien de fontawesome-->
+    <link rel="stylesheet" href="<?= ROUTE.'/css/bootstrap.min.css'; ?>">
+    <link rel="stylesheet" href="<?= ROUTE.'/css/main.css'; ?>">
 
 </head>
 <body>
@@ -48,10 +43,10 @@
 
 
 <!--lien de bibiotheque js-->
-<script type="text/javascript" src="<?= ROUTE.'/js/popper.min.js'; ?>"></script>
+<script type="text/javascript" src="<?= ROUTE.'/js/bootstrap.min.js'; ?>"></script>
 <script src="<?= ROUTE.'/js/jquery.min.js'; ?>"></script>
 <!-- script personnaliser -->
-<script type="text/javascript" src="<?= ROUTE.'/js/js.js'; ?>"></script>
+<script type="text/javascript" src="<?= ROUTE.'/js/main.js'; ?>"></script>
 
 </body>
 </html>
