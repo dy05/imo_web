@@ -8,4 +8,12 @@ main{
 .active{
     background: #000;
 }
-
+.footer-copyright{
+    background-color: #42127b;
+}
+.row{
+    border: 15px #42127b;
+}
+.footer-copyright{
+    color: white;
+}
