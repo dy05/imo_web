@@ -49,6 +49,7 @@ $route->get('/contact', 'PagesController@contact', 'contactpage');
 //    header('Location:'.ROUTE.'/home');
 //});
 $route->get('/login', 'NoAuthController@login', 'loginpage');
+$route->get('/dyos/loll', 'NoAuthController@login', 'loginpage');
 $route->post('/login', 'NoAuthController@login', 'loginform');
 $route->get('/register', 'NoAuthController@register', 'registerpage');
 $route->post('/register', 'NoAuthController@register', 'registerform');

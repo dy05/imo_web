@@ -64,6 +64,9 @@ class Router
         }
         $data = null;
         $parts = explode('/', $this->url);
+        if($_SERVER['SERVER_PORT'] != '80')
+            $parts = explode('/', substr($this->url, 1));
+
         if (isset($parts[1])) {
             $data = $parts[1];
             if ((isset($parts[2]) && $parts[1] !== 'delete') || (!isset($parts[2]) && empty($parts[2]) && $parts[1] === 'delete')) {
