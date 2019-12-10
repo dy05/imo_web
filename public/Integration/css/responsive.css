@@ -1,0 +1,7 @@
+@media(max-width: 800px)
+{
+    .offres, .header div.topLinks, div.header div.tabLinks, div.body div.topLinks, div.body .tabLinks, div.avis, div.essentiel, div.copyright
+    {
+        flex-wrap: wrap
+    }
+}

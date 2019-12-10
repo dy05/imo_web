@@ -1,0 +1,83 @@
+div.footer
+{
+    background-color: rgb(60, 40, 33);
+    color: white; 
+}
+
+div.essentiel
+{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px rgba(255, 255, 255,0.1) solid;
+    height: 170px;
+    bottom: o;
+}
+
+
+
+img.icone
+{
+    width: 12px;
+    border: 2px rgba(255, 255, 255,0.1) solid;
+    padding: 7px;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+.nommm
+{
+    align-self: center;
+}
+
+.nommm .text
+{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+div.home
+{
+    margin-left: 40px;
+}
+
+h3
+{
+    font-size: 14px;
+}
+
+a.linkFooter, #email
+{
+    font-size: 11px;
+    color: rgba(255,255,255,0.5);
+}
+
+#email
+{
+    background-color: rgb(60, 40, 33);
+    border: none;
+}
+
+div.email
+{
+    border: 2px rgba(255, 255, 255,0.1) solid;
+    border-radius: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+
+img.btnChevron
+{
+    width: 12px;
+}
+
+div.copyright
+{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    color: rgba(255,255,255,0.5);
+    padding: 30px;
+}

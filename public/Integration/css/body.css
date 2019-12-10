@@ -1,0 +1,340 @@
+body
+{
+    background-color: rgb(244, 244, 244);
+    font-family: calibri;
+}
+
+div.body
+{
+    margin-top: 65px;
+    width: 100%;
+}
+
+div.body div.topLinks
+{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+div.topLinks .linkLeft1, div.topLinks .linkLeft2, div.topLinks .linkRight
+{
+    color: rgb(172, 169, 169);
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 510;
+}
+
+div.topLinks .linkLeft1
+{
+    border-bottom: 3.5px rgb(66, 36, 28) solid;
+}
+
+div.topLinks .linkLeft2, div.topLinks .linkRight
+{
+    border-bottom: 1px rgb(172, 169, 169) solid;
+}
+
+span.featured
+{
+    
+    font-size: 27px;
+    font-weight: 680;
+    color: rgba(0,0,0,0.7);
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+
+
+div.offres
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+div.offre
+{
+    background-color: white;
+    margin-right: 8px;
+}
+
+img.imgOffre
+{
+    width: 185px;
+}
+
+img.logo
+{
+    width: 11px;
+}
+
+span.nb, div.nom
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+div.nom
+{
+    margin-left: 16px;
+    margin-bottom: 6px;
+    margin-top: 4px;
+}
+
+div.offre div.property
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+div.chambres, div.douches, div.prix
+{
+    align-items: center;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+div.chambres, div.douches
+{
+    border-right: 1px rgb(172, 169, 169) solid;
+}
+
+
+
+
+
+div.why
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+div.mining
+{
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+span.part1
+{
+    font-weight: bold;
+}
+
+span.part2
+{
+    color: rgb(161, 161, 161);
+    font-weight: bold;
+}
+
+
+
+
+div.body .tabLinks
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+img.imgElmt
+{
+    width: 90px;
+}
+
+div.elementEnable
+{
+    background-color: white;
+    border: 3px rgba(172, 169, 169,0.3) solid;
+    border-bottom: 5px rgb(66, 36, 28) solid;
+}
+
+div.element
+{
+    border-bottom: 1px rgb(172, 169, 169) solid;
+}
+
+div.elementEnable, div.element
+{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+div.label
+{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+div.video
+{
+    display: flex;
+    background-image: url(../images/fond6.jpeg);
+    background-size: cover;
+    height: 450px;
+    margin-bottom: 100px;
+}
+div.informations
+{
+    background-color: rgb(244, 244, 244);
+    height: 150px;
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-right: 85px;
+}
+div.name
+{
+    font-size: 25Px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+div.description
+{
+    font-size: 13px;
+    color: rgb(161, 161, 161);
+    font-weight: bold;
+}
+
+div.play
+{
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(66, 36, 28);
+    padding: 25px;
+    z-index: 14;
+}
+img.bouton
+{
+    width: 12px;
+    background-color: rgb(105, 65, 55);
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px white solid;
+    margin-bottom: 5px;
+}
+div.text
+{
+    color: white;
+}
+
+
+
+
+
+div.avis
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+div.corps
+{
+    margin-right: 55px;
+}
+
+div.avis div.corps div.profil
+{
+    display: flex;
+}
+
+img.cote
+{
+    width: 25px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+div.comment
+{
+    font-size: 13px;
+    color: rgb(161, 161, 161);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+div.date
+{
+    font-size: 13px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+div.photoProfil
+{
+    width: 45px;
+    height: 45px;;
+    border-radius: 50px;
+    background-image: url(../images/profil.jpg);
+    background-size: cover;
+}
+
+div.avis div.corps div.profil div.infos
+{
+    text-align: left;
+    margin-left: 10px;
+}
+
+div.nomm
+{
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+div.profession
+{
+    font-size: 13px;
+    color: rgb(161, 161, 161);
+    font-weight: bold;
+}
+
+div.comment, div.date, div.profil, div.fleches
+{
+    margin-left: 40px;
+}
+
+img.ref
+{
+    width: 300px;
+}
+
+div.profil
+{
+    margin-bottom: 130px;
+}
+
+div.fleches
+{
+    display: flex;
+}
+
+img.imgLeft
+{
+    width: 15px;
+    margin-right: 20px;
+}
+
+img.imgRight
+{
+    width: 30px;
+}
