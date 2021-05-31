@@ -8,7 +8,6 @@
 //
 //die('Mail send');
 
-
 session_start();
 
 $generalRoute = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
@@ -56,9 +55,6 @@ $route->post('/register', 'NoAuthController@register', 'registerform');
 $route->get('/logout', 'AuthController@logout', 'logout');
 
 
-//$route->get('/techniciens', 'AuthController@techniciens', 'technicienspage');
-//$route->get('/techniciens/new', 'AuthController@techniciens', 'techniciensnewpage');
-//$route->post('/techniciens/new', 'AuthController@techniciensadd', 'techniciensnewform');
 //$route->get('/blogs', 'PagesController@blogs', 'blogpage');
 //$route->get('/blogs/:id', 'PagesController@blogs', 'blogshowpage');
 //$route->post('/blogs/:id', 'PagesController@editblog', 'blogeditpage');
@@ -66,7 +62,6 @@ $route->get('/logout', 'AuthController@logout', 'logout');
 //$route->post('/blogs/new', 'PagesController@newblog', 'blognewform');
 //$route->post('/blogs/delete/:id', 'PagesController@deleteblog', 'blogdeleteblog');
 //$route->get('/blogs/delete/:id', 'PagesController@deleteblog', 'blogdelete');
-
 //$route->get('/account', 'AuthController@home', 'adminhome');
 
 $route->run();

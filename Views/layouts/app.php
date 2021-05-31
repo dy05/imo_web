@@ -19,10 +19,10 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item <?= $page_name == 'home' ? 'active' : ''; ?>">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="<?= ROUTE . '/'; ?>">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item <?= $page_name == 'contact' ? 'active' : ''; ?>">
-                    <a class="nav-link" href="<?= ROUTE.'/contact'; ?>">Contact</a>
+                    <a class="nav-link" href="<?= ROUTE . '/contact'; ?>">Contact</a>
                 </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
